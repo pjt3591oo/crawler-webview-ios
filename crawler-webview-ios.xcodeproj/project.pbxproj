@@ -16,6 +16,8 @@
 		1F010F022B252B8200234FB6 /* crawler_webview_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F010F012B252B8200234FB6 /* crawler_webview_iosTests.swift */; };
 		1F010F0C2B252B8200234FB6 /* crawler_webview_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F010F0B2B252B8200234FB6 /* crawler_webview_iosUITests.swift */; };
 		1F010F0E2B252B8200234FB6 /* crawler_webview_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F010F0D2B252B8200234FB6 /* crawler_webview_iosUITestsLaunchTests.swift */; };
+		1F010F1C2B252BF000234FB6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F010F1B2B252BEF00234FB6 /* WebKit.framework */; };
+		1F010F1E2B252C6400234FB6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F010F1D2B252C6400234FB6 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1F010F072B252B8200234FB6 /* crawler-webview-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crawler-webview-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F010F0B2B252B8200234FB6 /* crawler_webview_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crawler_webview_iosUITests.swift; sourceTree = "<group>"; };
 		1F010F0D2B252B8200234FB6 /* crawler_webview_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crawler_webview_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F010F1B2B252BEF00234FB6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1F010F1D2B252C6400234FB6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F010F1C2B252BF000234FB6 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				1F010F002B252B8200234FB6 /* crawler-webview-iosTests */,
 				1F010F0A2B252B8200234FB6 /* crawler-webview-iosUITests */,
 				1F010EE82B252B8000234FB6 /* Products */,
+				1F010F1A2B252BEF00234FB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +112,7 @@
 				1F010EF32B252B8200234FB6 /* Assets.xcassets */,
 				1F010EF52B252B8200234FB6 /* LaunchScreen.storyboard */,
 				1F010EF82B252B8200234FB6 /* Info.plist */,
+				1F010F1D2B252C6400234FB6 /* WebViewController.swift */,
 			);
 			path = "crawler-webview-ios";
 			sourceTree = "<group>";
@@ -125,6 +132,14 @@
 				1F010F0D2B252B8200234FB6 /* crawler_webview_iosUITestsLaunchTests.swift */,
 			);
 			path = "crawler-webview-iosUITests";
+			sourceTree = "<group>";
+		};
+		1F010F1A2B252BEF00234FB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F010F1B2B252BEF00234FB6 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +276,7 @@
 				1F010EEF2B252B8000234FB6 /* ViewController.swift in Sources */,
 				1F010EEB2B252B8000234FB6 /* AppDelegate.swift in Sources */,
 				1F010EED2B252B8000234FB6 /* SceneDelegate.swift in Sources */,
+				1F010F1E2B252C6400234FB6 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
